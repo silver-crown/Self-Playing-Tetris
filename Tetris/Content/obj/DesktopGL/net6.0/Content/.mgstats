@@ -1,0 +1,9 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/border.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/border.xnb","TextureProcessor","Texture2DContent",4295,1181269,0.1872911
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/flipped-L.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/flipped-L.xnb","TextureProcessor","Texture2DContent",395,25045,0.0039409
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/flipped-z.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/flipped-z.xnb","TextureProcessor","Texture2DContent",349,24661,0.0022515
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/L.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/L.xnb","TextureProcessor","Texture2DContent",377,25045,0.0020338
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/line.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/line.xnb","TextureProcessor","Texture2DContent",275,16469,0.0022097
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/square.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/square.xnb","TextureProcessor","Texture2DContent",318,16469,0.0020246
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/t.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/t.xnb","TextureProcessor","Texture2DContent",353,24661,0.0020723
+"C:/Users/13sti/source/repos/Tetris/Tetris/Content/z.png","C:/Users/13sti/source/repos/Tetris/Tetris/Content/bin/DesktopGL/Content/z.xnb","TextureProcessor","Texture2DContent",360,24661,0.002329
