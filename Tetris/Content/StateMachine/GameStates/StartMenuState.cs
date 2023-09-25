@@ -26,7 +26,7 @@ namespace Tetris.Content.StateMachine.GameStates
         public override IEnumerator Execute() {
             while (true) {
                 if (Keyboard.GetState().IsKeyDown(Keys.Enter)) {
-                    Game1.GAME.LoadGameScreen(new PlayStateScreen(Game1.GAME));
+                    GameManager.GM.SetState(new PlayState());
                     yield return End().MoveNext();
                 }
             }

@@ -51,8 +51,6 @@ namespace Tetris
         }
 
         protected override void Update(GameTime gameTime) {
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
             // TODO: Add your update logic here
             //should run the update for all the active game objects in the correct state machine state
             base.Update(gameTime);

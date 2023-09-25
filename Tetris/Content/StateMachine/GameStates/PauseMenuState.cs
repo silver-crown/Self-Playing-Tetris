@@ -1,23 +1,35 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Input;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tetris.Content.GameScreens;
 
 namespace Tetris.Content.StateMachine.GameStates
 {
+
+    //OBSOLETE CLASS! functionality is fulfilled by PlayState's Pause/Resume methods
     internal class PauseMenuState : State
     {
 
+        ~PauseMenuState() { 
+        }
         public override IEnumerator Start() {
-            return base.Start();
+            yield return Execute().MoveNext();
         }
         public override IEnumerator End() {
-            return base.End();
+            GameManager.GM.KillStateThread();
+            yield break;
         }
         public override IEnumerator Execute() {
-            return base.Execute();
+            //nothing much happens here, the purpose of this whole class is for PlayState to stop what it's doing
+            while (true) {
+                if (Keyboard.GetState().IsKeyDown(Keys.Enter)) {
+                    yield return End().MoveNext();
+                }
+            }
         }
 
         public override IEnumerator Pause() {
